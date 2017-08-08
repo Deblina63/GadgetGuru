@@ -1,0 +1,425 @@
+
+.button {
+        
+	height:20px;
+	width:20px;
+	font-size: 10px; 
+	text-decoration: none!important; 
+	font-family: Helvetica, Arial, sans serif;
+	
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	box-shadow: inset 0px 0px 2px #fff;
+	-o-box-shadow: inset 0px 0px 2px #fff;
+	-webkit-box-shadow: inset 0px 0px 2px #fff;
+	-moz-box-shadow: inset 0px 0px 2px #fff;
+}
+.button:active {
+	box-shadow: inset 0px 0px 3px #999;
+	-o-box-shadow: inset 0px 0px 3px #999;
+	-webkit-box-shadow: inset 0px 0px 3px #999;
+	-moz-box-shadow: inset 0px 0px 3px #999;
+}
+/* The styles for the grey button */
+.grey {
+	color: #000;
+	border: 1px solid #d0d0d0;
+	background-image: -moz-linear-gradient(#ededed, #e1e1e1);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e1e1e1), to(#ededed));
+	background-image: -webkit-linear-gradient(#ededed, #e1e1e1);
+	background-image: -o-linear-gradient(#ededed, #e1e1e1);
+	text-shadow: 1px 1px 1px #fff;
+	background-color: #e1e1e1;
+}
+.grey:hover {
+	border: 1px solid #b0b0b0;
+	background-image: -moz-linear-gradient(#e1e1e1, #ededed);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#e1e1e1));
+	background-image: -webkit-linear-gradient(#e1e1e1, #ededed);
+	background-image: -o-linear-gradient(#e1e1e1, #ededed);
+	background-color: #ededed;
+}
+.grey:active {border: 1px solid #666;}
+
+/* The styles for the red button */
+.red {
+	color: #000;
+	border: 1px solid #d96d7c;
+	background-image: -moz-linear-gradient(#f997b0, #f6677b);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f6677b), to(#f997b0));
+	background-image: -webkit-linear-gradient(#f997b0, #f6677b);
+	background-image: -o-linear-gradient(#f997b0, #f6677b);
+	text-shadow: 1px 1px 1px #fdbcc7;
+	background-color: #f6677b;
+}
+.red:hover {
+	border: 1px solid #c75964;
+	background-image: -moz-linear-gradient(#f6677b, #f997b0);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f997b0), to(#f6677b));
+	background-image: -webkit-linear-gradient(#f6677b, #f997b0);
+	background-image: -o-linear-gradient(#f6677b, #f997b0);
+	background-color: #f997b0;
+}
+.red:active {border: 1px solid #ab3e4b;}
+
+/* The styles for the blue button */
+.blue {
+	color: #000;
+	border: 1px solid #6fb1c7;
+	background-image: -moz-linear-gradient(#aae5f7, #73d0f1);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73d0f1), to(#aae5f7));
+	background-image: -webkit-linear-gradient(#aae5f7, #73d0f1);
+	background-image: -o-linear-gradient(#aae5f7, #73d0f1);
+	text-shadow: 1px 1px 1px #bfeafb;
+	background-color: #73d0f1;
+}
+.blue:hover {
+	border: 1px solid #4690ad;
+	background-image: -moz-linear-gradient(#73d0f1, #aae5f7);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#aae5f7), to(#73d0f1));
+	background-image: -webkit-linear-gradient(#73d0f1, #aae5f7);
+	background-image: -o-linear-gradient(#73d0f1, #aae5f7);
+	background-color: #aae5f7;
+}
+.blue:active {border: 1px solid #3b778b;}
+
+/* The styles for the green button */
+.green {
+	color: #000;
+	border: 1px solid #95b959;
+	background-image: -moz-linear-gradient(#cae387, #a5cb5e);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5cb5e), to(#cae387));
+	background-image: -webkit-linear-gradient(#cae387, #a5cb5e);
+	background-image: -o-linear-gradient(#cae387, #a5cb5e);
+	text-shadow: 1px 1px 1px #dff4bc;
+	background-color: #a5cb5e;
+}
+.green:hover {
+	border: 1px solid #687e30;
+	background-image: -moz-linear-gradient(#a5cb5e, #cae387);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cae387), to(#a5cb5e));
+	background-image: -webkit-linear-gradient(#a5cb5e, #cae387);
+	background-image: -o-linear-gradient(#a5cb5e, #cae387);
+	background-color: #cae387;
+}
+.green:active {border: 1px solid #506320;}
+
+.btn1{
+    display: inline-block;
+    position: absolute;
+    top: 358px;
+    left: 295px;
+    border-radius: 30%;
+    color: white;
+}
+
+.btn2{
+    position: absolute;
+    top: 388px;
+    left:393px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn3{
+    position: absolute;
+    top: 466px;
+    left:365px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn4{
+    position: absolute;
+    top: 530px;
+    left:413px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn5{
+    position: absolute;
+    top: 547px;
+    left:520px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn6{
+    position: absolute;
+    top: 494px;
+    left:585px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn7{
+    position: absolute;
+    top: 430px;
+    left:530px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn8{
+    position: absolute;
+    top: 360px;
+    left:500px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn9{
+    position: absolute;
+    top: 360px;
+    left:615px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn10{
+    position: absolute;
+    top: 420px;
+    left:670px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn11{
+    position: absolute;
+    top: 500px;
+    left:655px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn12{
+    position: absolute;
+    top: 555px;
+    left:740px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn13{
+    position: absolute;
+    top: 541px;
+    left:850px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn14{
+    position: absolute;
+    top: 470px;
+    left:885px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn15{
+    position: absolute;
+    top: 412px;
+    left:806px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn16{
+    position: absolute;
+    top: 375px;
+    left:710px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn17{
+    position: absolute;
+    top: 305px;
+    left:667px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn18{
+    position: absolute;
+    top: 293px;
+    left:766px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn19{
+    position: absolute;
+    top: 320px;
+    left:872px;
+    color: white;
+    border-radius: 30%;
+}
+
+.btn20{
+    position: absolute;
+    top: 285px;
+    left:1005px;
+    color: white;
+    border-radius: 30%;
+}
+
+.qsModal{
+    padding: 30px;
+    max-width: 600px;
+    width: 100% !important;
+    background-color: rgba( 211, 211, 211, 0.8);
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px black;
+    overflow: hidden;
+    
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+.submit{
+    position: absolute;
+    left:1100px;
+    top:650px;
+    width:150px;
+    height:40px;
+    
+}
+
+.countDown{
+    position: absolute;
+    left: 1150px;
+    top: 75px;
+    font-family: Raleway;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bold;
+}
+.cd1{
+    position: absolute;
+    left: 1110px;
+    top: 45px;
+    font-family: Raleway;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bold;
+}
+
+img#logo {
+    position: relative;
+    left: 0px;
+    top: 650px;
+    height: 60px;
+    width: 350px;
+}
+
+img#final {
+    position: relative;
+    left: 626px;
+    top: 212px;
+    height: 60px;
+    width: 70px;
+    z-index: -1;
+}
+
+
+
+.getOp{
+    font-size: x-large;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+.getQs{
+    font-size: x-large;
+    font-family: Montserrat;
+    font-weight: bolder;
+    
+}
+
+.modheader{
+    font-size: x-large;
+    
+}
+
+.nm{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: x-large;
+    font-family: Raleway;
+    font-weight: bolder;
+}
+.nm1{
+    position: absolute;
+    top: 180px;
+    left: 565px;
+    font-size: x-large;
+    font-family: Raleway;
+    font-weight: bolder;
+}
+
+.nm2{
+    position: absolute;
+    top: 530px;
+    left: 580px;
+    font-size: x-large;
+    color: saddlebrown;
+    font-family: Raleway;
+    font-weight: bolder;
+}
+.nm3{
+    position: absolute;
+    top: 170px;
+    left: 650px;
+    font-size: x-large;
+    color: white;
+    font-family: Raleway;
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.otf');
+}
+
+.tm{
+    font-family: Montserrat;
+}
+
+.bttn:hover{
+   box-shadow: 10px 10px 5px #888888;
+}
+
